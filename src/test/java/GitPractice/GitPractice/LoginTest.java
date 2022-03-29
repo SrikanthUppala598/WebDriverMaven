@@ -20,7 +20,7 @@ public class LoginTest {
 	@Test
 	public void doLogin(){
 		//Test changes
-		//branch changes
+		//branch changes Test APP
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("srikanthu598");
 	}
