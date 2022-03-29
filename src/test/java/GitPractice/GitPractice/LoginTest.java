@@ -21,7 +21,6 @@ public class LoginTest {
 	public void doLogin(){
 		//Test changes
 		//branch changes
-		//revert check
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("srikanthu598");
 	}
